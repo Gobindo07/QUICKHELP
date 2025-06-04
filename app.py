@@ -39,5 +39,6 @@ def request_service():
     return render_template('request_form.html')
 
 if __name__ == '__main__':
+    import os
     init_db()
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))
