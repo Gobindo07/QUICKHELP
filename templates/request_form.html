@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Request Service - QuickHelp</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container form-container">
+        <h2>Request Emergency Service</h2>
+        <form method="post">
+            <input type="text" name="name" placeholder="Your Name" required><br>
+            <input type="text" name="phone" placeholder="Phone Number" required><br>
+            <select name="service" required>
+                <option value="">Select Service</option>
+                <option value="Ambulance">Ambulance</option>
+                <option value="Electrician">Electrician</option>
+                <option value="Plumber">Plumber</option>
+                <option value="Fire Rescue">Fire Rescue</option>
+                <option value="Mechanic">Mechanic</option>
+            </select><br>
+            <textarea name="address" placeholder="Enter Your Address" required></textarea><br>
+            <button type="submit" class="btn">Submit Request</button>
+        </form>
+    </div>
+</body>
+</html>
