@@ -41,9 +41,12 @@ The goal of this project is to **reduce emergency response time by 50%** through
 
 ## 📷 Screenshots
 
-*(Add if available: Home page, Request form, Confirmation screen)*
+---<img width="1919" height="840" alt="homepage" src="https://github.com/user-attachments/assets/e2b34786-da0d-4547-8fe9-c9b31f6a8607" />
 
----
+<img width="1910" height="898" alt="requestpage" src="https://github.com/user-attachments/assets/63185853-a4ed-49e5-927c-2fd88bed92e3" />
+
+<img width="1917" height="877" alt="submissionpage" src="https://github.com/user-attachments/assets/cb70839d-2a53-40c7-8c6a-3f78d1dc1459" />
+
 
 ## 🚀 How to Run Locally
 
